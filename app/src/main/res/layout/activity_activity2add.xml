@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        tools:context=".activity2add"
+        tools:ignore="HardcodedText,Autofill">
+
+
+        <TextView
+            android:id="@+id/NAME_AND_POSITION_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Enter name and position"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/NAME_ID"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:hint="Name"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15dp"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="@+id/NAME_AND_POSITION_ID"
+            app:layout_constraintTop_toBottomOf="@+id/NAME_AND_POSITION_ID"/>
+
+        <EditText
+            android:id="@+id/POSITION_ID"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:hint="Position"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15dp"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="@+id/NAME_ID"
+            app:layout_constraintTop_toBottomOf="@+id/NAME_ID"
+            />
+
+        <TextView
+            android:id="@+id/EDUCATION_ID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Education"
+            app:layout_constraintTop_toBottomOf="@+id/POSITION_ID"
+            app:layout_constraintStart_toStartOf="@+id/POSITION_ID"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFEB3B"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/COLLEGE_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="College"
+            app:layout_constraintStart_toStartOf="@+id/EDUCATION_ID"
+            app:layout_constraintTop_toBottomOf="@+id/EDUCATION_ID"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/DEGREE_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Degree"
+            app:layout_constraintStart_toStartOf="@+id/COLLEGE_ID"
+            app:layout_constraintTop_toBottomOf="@+id/COLLEGE_ID"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/EDUCATION_YEAR_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Education Year"
+            app:layout_constraintStart_toStartOf="@+id/DEGREE_ID"
+            app:layout_constraintTop_toBottomOf="@+id/DEGREE_ID"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:id="@+id/ENTER_COURSE_ID"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Enter Course"
+            app:layout_constraintTop_toBottomOf="@+id/EDUCATION_YEAR_ID"
+            app:layout_constraintStart_toStartOf="@+id/EDUCATION_YEAR_ID"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFEB3B"
+            android:fontFamily="serif"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/ORGANISATION_NAME_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Organisation Name"
+            app:layout_constraintStart_toStartOf="@+id/ENTER_COURSE_ID"
+            app:layout_constraintTop_toBottomOf="@+id/ENTER_COURSE_ID"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/COURSE_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Course"
+            app:layout_constraintStart_toStartOf="@+id/ORGANISATION_NAME_ID"
+            app:layout_constraintTop_toBottomOf="@+id/ORGANISATION_NAME_ID"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/COURSE_YEAR_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="76dp"
+            android:fontFamily="serif"
+            android:hint="Course Year"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ENTER_COURSE_ID" />
+
+        <EditText
+            android:id="@+id/GITHUB_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Github User Name"
+            app:layout_constraintStart_toStartOf="@+id/COURSE_YEAR_ID"
+            app:layout_constraintTop_toBottomOf="@+id/COURSE_YEAR_ID"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/SUBMIT_BUTTON_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="serif"
+            android:onClick="openGithub"
+            android:text="submit"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/GITHUB_ID"
+            app:layout_constraintTop_toBottomOf="@+id/GITHUB_ID" />
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
