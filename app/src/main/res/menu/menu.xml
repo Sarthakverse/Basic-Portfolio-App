@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/SETTINGS_ID"
+        android:title="Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_settings_24"
+        />
+    <item
+        android:id="@+id/PROFILE_ID"
+        android:title="Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_person_24"
+        />
+</menu>
