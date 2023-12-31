@@ -3,7 +3,7 @@
 
 # Features 🚀
 ## Effortless Navigation: 
-###Utilize the floating action button to seamlessly move between the main and add activities.
+### Utilize the floating action button to seamlessly move between the main and add activities.
 ## Parcelable Portfolio:
 ### The app employs a Parcelable class, Portfolio, to store essential details like name, position, education, courses, and GitHub username.
 ## Intent Magic:
@@ -16,7 +16,7 @@
 ### The app efficiently handles results from the add activity using onActivityResult.
 
 #Getting Started 🏁
-## Clone the Repository:
+## Clone the Repository: https://github.com/Sarthakverse/Basic-Portfolio-App.git
 
 #Run the App:
 ### Open the project in Android Studio.
